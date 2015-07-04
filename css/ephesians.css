@@ -47,6 +47,16 @@ hr.star-primary {
     text-align: center;
 }
 
+hr.subsection {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+
 hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
@@ -99,7 +109,7 @@ header img {
 
 
 header .intro-text .rocket {
-    width: 240px;
+    width: 500px;
     height: 240px;
     padding-top: auto;
     padding-right: auto;
@@ -205,6 +215,16 @@ section.unsuccess {
     color: #2c3e50;
 }
 
+section.wsuccess {
+    background: #ffffff;
+    color: #000000;
+}
+
+section.gsuccess {
+    background: #eeeeee;
+    color: #000000;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -285,7 +305,7 @@ section.unsuccess {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 3px #fff;
     color: #4fceff;
     background: #fff;
 }
@@ -370,13 +390,13 @@ footer .footer-below {
 
 .btn-social {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border: 2px solid #fff;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
-    line-height: 45px;
+    line-height: 65px;
 }
 
 .btn:focus,
@@ -483,6 +503,7 @@ footer .footer-below {
 }
 
 #carousel-control_left , #carousel-control_right , #carousel-control_left2 , #carousel-control_right2  {
+    color: #000000;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.0000) 0, rgba(0,0,0,0) 0%);
     background-image: linear-gradient(to right, rgba(0,0,0,0.000) 0, rgba(0,0,0,0) 100%);
 }
