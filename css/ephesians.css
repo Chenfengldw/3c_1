@@ -12,6 +12,11 @@ p {
     font-size: 20px;
 }
 
+ul.body {
+    font-size: 20px;
+}
+
+
 p.small {
     font-size: 16px;
 }
@@ -506,4 +511,8 @@ footer .footer-below {
     color: #000000;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.0000) 0, rgba(0,0,0,0) 0%);
     background-image: linear-gradient(to right, rgba(0,0,0,0.000) 0, rgba(0,0,0,0) 100%);
+}
+
+embed.show_video {
+loop:"false";
 }

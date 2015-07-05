@@ -144,13 +144,24 @@
             <div class="col-lg-6 text-left">
                 <p>
                     This is the smart home system in our experiment. As you can see, it contains several parts, mainly including
-                    the power supply, the gateway, many control units, sockets as well as end device(different kinds of light).
+                    the power supply, the gateway, many control units, sockets as well as end devices(different kinds of light).
                 </p>
                 <p>
                     The complicated system is constructed by many microcontrollers. Here we use STM32F103 for its low power consumption and cost.
                     The gateway is the interface between the system and the administrator. It uses CAN to communicate with other microcontrollers.
                     Our instructor, Zhang, also provides us with a software programmed by QT to control the system.
                 </p>
+                <p>
+                    Our project is especially unique because we don't have a special aim. We just do step and step. Here are things we've done:
+                    <ul class="body">
+                    <li>Learn DMSTM-L board and make a display function.</li>
+                    <li>Add a RTC based timing system to the gateway.</li>
+                    <li>Learn the CC3200 LaunchPad with its wifi function.</li>
+                    <li>Using DY-FFTB6638 and CC2520EM module to realize zigbee communication.</li>
+                    <li>Learning NJZB-2530EB-2014V20 board and its zigbee communication.</li>
+                    </ul>
+                </p>
+
             </div>
             </div>
         </div>
@@ -171,18 +182,17 @@
         <div class="row text-center">
 
             <div class="col-lg-10 col-lg-offset-1  text-center">
-                <img src="/img/prof_li_song.jpg" style="height:120px;width:100px;" class="logo center-block img-circle">
+                <img src="image/zhenyu.png" style="width: 200px;" class="logo center-block img-circle">
                 <li><a href="http://medialab.sjtu.edu.cn/" target="_blank"><p>Zhenyu Song</p></a></li>
-                <h4>badds</h4>
-                <p>balablablsdlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffffbalablabls
-                    dlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffff</p>
+                <h4>Team Leader</h4>
+                <p>I'm a sophomore from CS department, SJTU.</p>
             </div>
 
 
             <div class="col-lg-10 col-lg-offset-1  text-center">
                 <img src="/img/prof_li_song.jpg" style="height:120px;width:100px;" class="logo center-block img-circle">
                 <li><a href="http://medialab.sjtu.edu.cn/" target="_blank"><p>Duowen Liu</p></a></li>
-                <h4>badds</h4>
+                <h4>Team Member</h4>
                 <p>balablablsdlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffffbalablabls
                     dlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffff</p>
             </div>
@@ -192,7 +202,7 @@
             <div class="col-lg-10 col-lg-offset-1  text-center">
                 <img src="/img/prof_li_song.jpg" style="height:120px;width:100px;" class="logo center-block img-circle">
                 <li><a href="http://medialab.sjtu.edu.cn/" target="_blank"><p>Yintong Ma</p></a></li>
-                <h4>badds</h4>
+                <h4>Team Member</h4>
                 <p>balablablsdlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffffbalablabls
                     dlflsdflsdflsdflsdflsdflsdflsdflsdfldfslfsdlfelwflefffffffffff</p>
             </div>
@@ -366,10 +376,19 @@
             <hr class="subsection">
             <br/>
             <div class="col-lg-6 text-center">
-                <img src="img/social_network.jpg" style="height:200px;width:60%;" class="img-thumbnail" alt="..." />
+                <img src="image/dmstm.jpg" style="width:60%;" class="img-thumbnail" alt="..." />
+                <img src="image/dmstm_display.png" style="width:60%;" class="img-thumbnail" alt="..." />
             </div>
-            <div class="col-lg-6 text-center">
-                <p>balald</p>
+            <div class="col-lg-6 text-left">
+                <p>
+                    This is a board with STM32F103 core. It has several buttons, leds as well as a LCD screen. I want to make the LCD
+                    screen as a showing terminal in the system because I think in a real smart home system, a human-like terminal is indispensable.
+                    The user do not have to pay attention to the lower layer, all he needs is just communicating with the Terminal.
+                </p>
+                <p>
+                    So I use the board to develop an application to show the information from the system. As you can see, it show the arrangement and
+                    temperature at home. You can also preset a numbers of instructions for the application to give you advice.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -386,11 +405,26 @@
             <h3>STM32F103 RTC</h3>
             <hr class="subsection">
             <br/>
-            <div class="col-lg-6 text-center">
-                <p>balald</p>
+            <div class="col-lg-6 text-left">
+                <p>
+                    Real-Time Clock is a inner module of STM32F103. It has two part, one is a clock-divider, this part use the system clock to
+                    generate a clock of frequency 1 Hz. The other part is a 32-bit register. The module can get power supply from a external battery,
+                    so it can work even the microcontroller is power off.
+                </p>
+                <p>
+                    I use RTC module to realize a timing system. You can predefine several instruction to the gateway. Each instruction includes a loop flag, time
+                    and it's corresponding activity. When the time meets, the activity will be perform on the end device. And if the instruction require the
+                    activity happens periodically, the gateway will refresh the time and perform the activity at next time.
+                </p>
+                <p>
+                    The main program is like this: When the microcontroller is power on, it will first load the instruction in its flash, and select the one will perform
+                    in the nearest time, setting it to the RTC interrupt. When the time meets, it will send the command by CAN. And refresh the instruction before selecting
+                    a new one.
+                </p>
+
             </div>
             <div class="col-lg-6 text-center">
-                <img src="img/social_network.jpg" style="height:200px;width:60%;" class="img-thumbnail" alt="..." />
+                <img src="image/rtc.jpg" style="width:60%;" class="img-thumbnail" alt="..." />
             </div>
         </div>
         <div class="row">
@@ -431,7 +465,7 @@
                 <p>balald</p>
             </div>
             <div class="col-lg-6 text-center">
-                <img src="img/social_network.jpg" style="height:200px;width:60%;" class="img-thumbnail" alt="..." />
+                <img src="image/dy.png" style="width:60%;" class="img-thumbnail" alt="..." />
             </div>
         </div>
         <div class="row">
@@ -471,9 +505,30 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-            <embed src="sucai/3.mp4"  autostart="false"></embed>
+                <h3>DMSTM-L</h3>
+                <video id="video1" height="400px" controls="controls">
+                    <source src="image/dmstm_video.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
         </div>
+        <div class ="col-lg-3 col-lg-offset-2" >
+        <a href="image/dmstm_video.mp4" class="btn-social btn-outline"><i class="fa fa-download"></i></a>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>DY-FFTB6638 WITH CC2520</h3>
+                <video id="video2" height="400px" controls="controls">
+                    <source src="image/dy_video.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+        <div class ="col-lg-3 col-lg-offset-2" >
+            <a href="image/dy_video.mp4" class="btn-social btn-outline"><i class="fa fa-download"></i></a>
+        </div>
+
         <br>
         <br>
     </div>

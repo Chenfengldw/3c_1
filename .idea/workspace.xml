@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9f400c-492d-4aee-89db-b14321ce3d7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/system.png" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\acm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\data_science_camp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\flght_predictor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\l-bfgs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\learning_approach.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\prof_guihai_chen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\prof_li_song.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\prof_weijie_wu.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\prof_xiaohua_tian.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\prof_xinbing_wang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\server2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sunnyszy\Documents\3c_1\image\social_network.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/zhenyu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ephesians.css" afterPath="$PROJECT_DIR$/css/ephesians.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +48,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dmstm.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/dmstm.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dmstm_display.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/dmstm_display.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhenyu.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/zhenyu.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/system.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.392857">
+              <caret line="5" column="8214" selection-start-line="5" selection-start-column="8212" selection-end-line="5" selection-end-column="8214" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44152746">
-              <caret line="151" column="65" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.8412888">
+              <caret line="528" column="55" selection-start-line="528" selection-start-column="55" selection-end-line="528" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,11 +108,12 @@
                 <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#3;n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#3;n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1436023826215" expanded="true" signature="1283:1312" placeholder="{...}" />
+                <marker date="1436068123454" expanded="true" signature="1283:1312" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -109,53 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.413794">
-              <caret line="6" column="16089" selection-start-line="6" selection-start-column="16089" selection-end-line="6" selection-end-column="16089" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.637931">
-              <caret line="5" column="8214" selection-start-line="5" selection-start-column="8212" selection-end-line="5" selection-end-column="8214" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ephesians.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/ephesians.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.4">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state vertical-scroll-proportion="-25.066668">
+              <caret line="517" column="1" selection-start-line="517" selection-start-column="1" selection-end-line="517" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -636,7 +614,7 @@
       <created>1435994663513</created>
       <option name="number" value="Default" />
       <updated>1435994663513</updated>
-      <workItem from="1435994671771" duration="21074000" />
+      <workItem from="1435994671771" duration="27663000" />
     </task>
     <task id="LOCAL-00001" summary="change css&#10;">
       <created>1435997690258</created>
@@ -668,11 +646,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436020966669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make the rough frame v0.2 develop motivation&#10;">
+      <created>1436023882265</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1436023882265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21074000" />
+    <option name="totallyTimeSpent" value="27663000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -728,7 +712,8 @@
     <MESSAGE value="change css&#10;" />
     <MESSAGE value="make the rough frame&#10;" />
     <MESSAGE value="make the rough frame v0.1&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="make the rough frame v0.1&#10;" />
+    <MESSAGE value="make the rough frame v0.2 develop motivation&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="make the rough frame v0.2 develop motivation&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -759,28 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.637931">
-          <caret line="5" column="8214" selection-start-line="5" selection-start-column="8212" selection-end-line="5" selection-end-column="8214" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="20.413794">
           <caret line="6" column="16089" selection-start-line="6" selection-start-column="16089" selection-end-line="6" selection-end-column="16089" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -817,6 +784,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -825,18 +800,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/dmstm_display.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/dmstm.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/zhenyu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/system.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="8214" selection-start-line="5" selection-start-column="8212" selection-end-line="5" selection-end-column="8214" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/ephesians.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state vertical-scroll-proportion="-25.066668">
+          <caret line="517" column="1" selection-start-line="517" selection-start-column="1" selection-end-line="517" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44152746">
-          <caret line="151" column="65" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.8412888">
+          <caret line="528" column="55" selection-start-line="528" selection-start-column="55" selection-end-line="528" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -852,11 +857,12 @@
             <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#3;n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#3;n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436023826215" expanded="true" signature="1283:1312" placeholder="{...}" />
+            <marker date="1436068123454" expanded="true" signature="1283:1312" placeholder="{...}" />
           </folding>
         </state>
       </provider>
